@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace CaseTrackerCentric.Models
 {
+    //comment
     public partial class casetrackerContext : DbContext
     {
         public casetrackerContext()
