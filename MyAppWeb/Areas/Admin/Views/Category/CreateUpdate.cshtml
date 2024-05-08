@@ -1,0 +1,37 @@
+﻿@model MyApp.Models.ViewModels.CategoryVM
+<form method="post" asp-action="CreateUpdate">
+    <input type="hidden" asp-for="Categoryq.Id"/>
+    <div class="p-3 mt-3">
+        <div class="row pb-3">
+            <h2 class="text-primary">@((Model.Categoryq == null || Model.Categoryq.Id == 0) ? "Create" : "Update") Category</h2>
+        </div>
+
+        <div class="row mb-3">
+            <label asp-for="Categoryq.Name">Name</label>
+            <input asp-for="Categoryq.Name" class="form-control" />
+            <span asp-validation-for="Categoryq.Name" class="text-danger"></span>
+        </div>
+        <div class="row mb-3">
+            <label asp-for="Categoryq.DisplayOrder">Display Order</label>
+            <input asp-for="Categoryq.DisplayOrder" class="form-control" />
+            <span asp-validation-for="Categoryq.DisplayOrder" class="text-danger"></span>
+        </div>
+        @if (Model.Categoryq == null || Model.Categoryq.Id == 0)
+        {
+            <button class="btn-primary" type="submit">Create </button>
+        }
+        else
+        {
+            <button class="btn-primary" type="submit">Update </button>
+        }
+    </div>
+    <a asp-action="Index" asp-controller="Category">Back To List</a>
+
+</form>
+@* clientside validation *@
+@section scripts
+{
+    <partial name="_ValidationScriptsPartial" ; />
+}
+
+

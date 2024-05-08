@@ -1,0 +1,40 @@
+﻿@model  webapp.Model.ViewModel.CategoryVM
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container p-4">
+    <div class="container p-3">
+        <div class="col-6">
+           <h2> Categories</h2>
+            <div class="col-6 text-end" style="margin-left:55%">
+                 <a class="btn btn-primary" asp-action="Create" asp-controller="Category"><i class="bi bi-plus-circle-fill"></i> &nbsp; Create Category</a>
+            </div>
+        </div>
+    </div>
+</div>
+<table class="table table-bordered table-striped" style="width:60%">
+<thead>
+    <tr>
+            <th>Category Name</th>
+            <th>Display Order</th>
+            <th>Date_Time</th>
+            <th>Action</th>
+           
+
+   </tr>
+</thead>
+
+<tbody>
+    @foreach(var data in Model.Category)
+    {  
+    <tr>
+            <td>@data.Name</td>
+            <td>@data.DisplayOrder</td>
+            <td>@data.CreateDateTime</td>
+                <td role="group"><a asp-action="Edit" asp-controller="Category" asp-route-id="@data.Id"><i class="bi bi-pencil-square"></i></a>
+                <a asp-action="Delete" asp-controller="Category" asp-route-id="@data.Id"><i class="bi bi-trash"></i></a><td/>
+    </tr>
+    }
+</tbody>
+</table>

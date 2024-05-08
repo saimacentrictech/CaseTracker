@@ -1,0 +1,59 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+
+
+<!--FORM STRUCTURE---STARTS FROM HERE-->
+<div class="row mb-3">
+    <div class="col-md-3">First Number</div>
+    <div class="col-md-9"><input type="text" id="txtval1" class="form-control" /></div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-3">Second Number</div>
+    <div class="col-md-9"><input type="text" id="txtval2" class="form-control" /></div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-3"></div>
+   <!--here we call function on button--->
+    <div class="col-md-9"><a href="javascript:void(0)" class="btn btn-success" onclick="funsum()">Sum</a></div>
+</div>
+
+<div class="row">
+    <div class="col-md-9" id="divresult"></div>
+   
+</div> 
+
+<!--FORM STRUCTURE---ENDS FROM HERE-->
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<script type="text/javascript">
+    // A $( document ).ready() block.
+    $(document).ready(function () {
+        console.log("hello");
+        alert("Welcome!!!!!!");
+    });
+
+    function funsum()
+    { 
+
+        var x =parseInt($("#txtval1").val());
+        var y =parseInt($("#txtval2").val());
+
+
+
+        // var z = x + y;
+        // alert(z);
+
+     
+}
+</script>

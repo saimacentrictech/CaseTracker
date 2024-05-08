@@ -1,0 +1,37 @@
+﻿@model MyApp.Models.ViewModels.CategoryVM
+
+<div class="container p-4">
+    <div class="container p-">
+        <div class="col-6">
+            <h3 style="color:crimson">&nbsp; WELCOME  TO   ECOMMERCE   PROJECT</h3>
+            <div class="col-6" style="margin-left:160%">
+                 <a class="btn btn-primary" asp-action="CreateUpdate" asp-controller="Category"><i class="bi bi-plus-circle-fill"></i> &nbsp; Create Category</a>
+            </div>
+        </div>
+    </div>
+</div>
+<table class="table table-striped" style="width:100%">
+<thead>
+        <tr>
+            <th>Category Name</th>
+            <th>Display Order</th>
+            <th>Date_Time</th>
+            <th>Action</th>
+        </tr>
+</thead>
+
+<tbody>
+    @foreach(var data in Model.categories)
+    {
+     <tr>
+
+            <td>@data.Name</td>
+            <td>@data.DisplayOrder</td>
+            <td>@data.CreateDateTime</td>
+                <td role="group"><a asp-action="CreateUpdate" asp-controller="Category" asp-route-id="@data.Id"><i class="bi bi-pencil-square"></i></a>
+                <a asp-action="Delete" asp-controller="Category" asp-route-id="@data.Id"><i class="bi bi-trash"></i></a><td/>
+    
+    </tr>
+   }
+</tbody>
+</table>

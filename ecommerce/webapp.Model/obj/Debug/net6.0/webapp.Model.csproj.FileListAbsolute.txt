@@ -1,0 +1,11 @@
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\webapp.Model.deps.json
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\webapp.Model.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\webapp.Model.pdb
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.AssemblyInfoInputs.cache
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.AssemblyInfo.cs
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.csproj.CoreCompileInputs.cache
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\refint\webapp.Model.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\webapp.Model.pdb
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\ref\webapp.Model.dll

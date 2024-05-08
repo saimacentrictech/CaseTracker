@@ -1,0 +1,11 @@
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\MyApp.Models.deps.json
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\MyApp.Models.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\bin\Debug\net6.0\MyApp.Models.pdb
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.AssemblyInfoInputs.cache
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.AssemblyInfo.cs
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\refint\MyApp.Models.dll
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\MyApp.Models.pdb
+C:\Users\aimaf\source\repos\ecommerce\webapp.Model\obj\Debug\net6.0\ref\MyApp.Models.dll
